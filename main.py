@@ -52,6 +52,20 @@ for i in range(len(heights)):
     print(heights[i])
 facts = []
 for i in range(len(mountains)):
-    facts.append(f'The height of {mountains[i]} is {heights[i]}.')
+    facts.append(f'The height of {mountains[i]} is {heights[i]} meters.')
 print(facts)
+
+mountains = ['Mount Stanley', 'Mount Kenya', 'Mount Stanley', 'Mount Meru']
+print(mountains)
+mountains[3] = 'Mount Speke'
+print(mountains)
+
+# You can call functions min, max, and sum on lists of numbers.
+heights = [5895, 5199, 5109, 4562]
+print(heights)
+print(min(heights))
+print(max(heights))
+# We can call the sum function to get the total height of all four mountains,
+# although this number is not particularly meaningful in a practical sense.
+print(sum(heights))
 
